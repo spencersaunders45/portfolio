@@ -65,13 +65,13 @@ export default () => {
                   </div>
                 </div>
               </div>
+              <div className="row">
+                <div className="col">
+                  <Footer />
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col">
-          <Footer />
         </div>
       </div>
     </div>
