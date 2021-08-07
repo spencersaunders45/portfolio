@@ -1,0 +1,17 @@
+.Container{
+  height: 93vh;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: black;
+}
+
+.StopOverflow{
+  width: 100vw;
+}
+
+.ColBackground{
+  background-color: rgba(0, 0, 0, .8);
+}

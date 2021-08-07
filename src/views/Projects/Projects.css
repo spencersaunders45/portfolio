@@ -1,0 +1,16 @@
+#ContainerBody{
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.ProjectImg{
+  max-width: 500px;
+  min-width: 250px;
+}
+
+.TextBackground{
+  background-color: rgba(0, 0, 0, .7);
+}

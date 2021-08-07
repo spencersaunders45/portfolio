@@ -1,0 +1,15 @@
+#Container{
+  background-color: black;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-color: black;
+}
+
+.TextBackground{
+  background-color: rgba(0, 0, 0, .8);
+}
+
+#SecondaryContainer{
+  height: 50vh;
+}

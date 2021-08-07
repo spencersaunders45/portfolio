@@ -1,0 +1,11 @@
+.ContainerNavBar{
+  padding-right: 0px;
+}
+
+#LogoImg{
+  width: 50px;
+}
+
+.NavBarLinks{
+  background-color:rgba(0, 0, 0, .7);
+}
