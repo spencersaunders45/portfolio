@@ -7,7 +7,7 @@ import BackgroundImg from '../../images/portfolio_background.png';
 
 export default () => {
   return(
-    <div style={{ backgroundImage: `url(${BackgroundImg})` }} id="Container" className="container-fluid">
+    <div style={{ backgroundImage: `url(${BackgroundImg})` }} id="Container" className="container-fluid pb-5">
       <div className="row mb-5">
         <div className="col">
           <NavBar />
@@ -18,7 +18,7 @@ export default () => {
           <div className="col-7 TextBackground mb-5">
             <h1 className="pt-1">Hello, I'm Spencer.</h1>
             <p className="pt-5">I am a full stack developer doing everything from UI/UX design to database development. I have experience creating websites for small buinesses and am driven to provide the best product as possible. I am a strraight forward highly self motivated person who likes to get the job done right the first time. I write clean code <a className="text-danger" href="https://github.com/spencersaunders45/student_tracker/tree/main/src">(seen here)</a> and am constantly seeking to improve my skills. If you would like to work with me then contact me <a className="text-danger" href="mailto: spencer.saunders45@gmail.com">here</a>.</p>
-            <p className="py-2 ">You can also view my projects <a className="text-danger" href="/projects">here</a> and my resume <a className="text-danger" href="/resume">here</a>.</p>
+            <p className="py-2 ">You can also view my projects <a className="text-danger" href="/projects">here</a>.</p>
           </div>
           <div className="row justify-content-center">
             <div className="col-auto TextBackground">
@@ -65,7 +65,7 @@ export default () => {
                   </div>
                 </div>
               </div>
-              <div className="row">
+              <div className="row my-5">
                 <div className="col">
                   <Footer />
                 </div>

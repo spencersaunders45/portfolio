@@ -9,13 +9,12 @@ import CyberSafe from '../../images/CyberSafe.png';
 
 export default () => {
   return(
-    <div id="ContainerBody" style={{ backgroundImage: `url(${BackgroundImg})` }} className="container-fluid text-light">
+    <div id="Container" style={{ backgroundImage: `url(${BackgroundImg})` }} className="container-fluid text-light">
       <div className="row">
         <div className="col">
           <NavBar />
         </div>
       </div>
-      
       <div className="row my-5">
         <div className="col">
           <h1>Hello World</h1>
@@ -56,7 +55,7 @@ export default () => {
         </div>
       </div>
       {/* Card End */}
-      <div className="row">
+      <div className="row pb-5">
         <div className="col">
           <Footer />
         </div>
