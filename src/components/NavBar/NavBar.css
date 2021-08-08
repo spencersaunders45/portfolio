@@ -9,3 +9,7 @@
 .NavBarLinks{
   background-color:rgba(0, 0, 0, .7);
 }
+
+#NavBar{
+  width: 100vw;
+}

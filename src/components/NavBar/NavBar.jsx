@@ -6,9 +6,9 @@ export default () => {
   return(
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid ContainerNavBar">
-        <div style={{ width: '100vw' }} className="row justify-content-between">
+        <div id="NavBar" className="row justify-content-between">
           <div className="col-auto">
-            <a class="navbar-brand" href="#"><img id="LogoImg" src={ Logo } alt="" /></a>
+            <a class="navbar-brand" href="/"><img id="LogoImg" src={ Logo } alt="" /></a>
           </div>
           <div className="col-auto">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
