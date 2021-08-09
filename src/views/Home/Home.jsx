@@ -23,7 +23,7 @@ export default () => {
           </div>
           <div className="row justify-content-center StopOverflow">
             <div className="col-6 pt-5 ColBackground">
-              <p className="text-light">I am a full stack developer currently living in Texas. I design and build websites for small businesses. If you are business looking for a website or an employer looking to hire email me <a className="text-danger" href="mailto: spencer.saunders45@gmail.com">here</a>.</p>
+              <p className="text-light">I am a full stack developer currently living in Texas. I design and build websites for small businesses. If you are a business looking for a website or an employer looking to hire, email me <a className="text-danger" href="mailto: spencer.saunders45@gmail.com">here</a>.</p>
             </div>
           </div>
           <div className="row justify-content-center StopOverflow">

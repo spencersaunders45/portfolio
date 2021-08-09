@@ -17,7 +17,7 @@ export default () => {
         <div className="row justify-content-center">
           <div className="col-7 TextBackground mb-5">
             <h1 className="pt-1">Hello, I'm Spencer.</h1>
-            <p className="pt-5">I am a full stack developer doing everything from UI/UX design to database development. I have experience creating websites for small buinesses and am driven to provide the best product as possible. I am a strraight forward highly self motivated person who likes to get the job done right the first time. I write clean code <a className="text-danger" href="https://github.com/spencersaunders45/student_tracker/tree/main/src">(seen here)</a> and am constantly seeking to improve my skills. If you would like to work with me then contact me <a className="text-danger" href="mailto: spencer.saunders45@gmail.com">here</a>.</p>
+            <p className="pt-5">I am a full stack developer doing everything from UI/UX design to database development. I have experience creating websites for small buinesses and am driven to provide the best product as possible. I am a straight forward highly self motivated person who likes to get the job done right the first time. I write clean code <a className="text-danger" href="https://github.com/spencersaunders45/student_tracker/tree/main/src">(seen here)</a> and am constantly seeking to improve my skills. If you would like to work with me then contact me <a className="text-danger" href="mailto: spencer.saunders45@gmail.com">here</a>.</p>
             <p className="py-2 ">You can also view my projects <a className="text-danger" href="/projects">here</a>.</p>
           </div>
           <div className="row justify-content-center">
