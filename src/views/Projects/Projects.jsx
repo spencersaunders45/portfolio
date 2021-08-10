@@ -6,6 +6,7 @@ import NavBar from '../../components/NavBar/NavBar';
 import BackgroundImg from '../../images/portfolio_background.png';
 import SCHBanner from '../../images/Saunders_Custom_Homes.jpg';
 import CyberSafe from '../../images/CyberSafe.png';
+import StudentTracker from '../../images/student_tracker.png';
 
 export default () => {
   return(
@@ -44,6 +45,7 @@ export default () => {
           <ul>
             <li>HTML</li>
             <li>CSS</li>
+            <li>Bootstrap</li>
             <li>Python</li>
             <li>Django</li>
             <li>SQLite</li>
@@ -51,7 +53,27 @@ export default () => {
           </ul>
         </div>
         <div className="col-lg-3 d-flex flex-column">
-          <img className="rounded ProjectImg" src={ CyberSafe } alt="Saunders Custom Homes Banner" />
+          <img className="rounded ProjectImg" src={ CyberSafe } alt="Screen shot of CyberSafe home page" />
+        </div>
+      </div>
+      {/* Card End */}
+      {/* Card Start */}
+      <div className="row justify-content-center mb-5">
+        <div className="col-lg-4 px-5 text-start TextBackground">
+          <h5 className="mb-3"><a className="text-danger" href="https://student-tracker.pages.dev/">Student Tracker</a></h5>
+          <p className="fw-bold">View, filter, and add tags to your students.</p>
+          <h6>Tech:</h6>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>React.js</li>
+            <li>API</li>
+            <li>Axios</li>
+          </ul>
+        </div>
+        <div className="col-lg-3 d-flex flex-column">
+          <img className="rounded ProjectImg" src={ StudentTracker } alt="Screen shot of studnet info" />
         </div>
       </div>
       {/* Card End */}
