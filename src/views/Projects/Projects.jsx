@@ -7,6 +7,7 @@ import BackgroundImg from '../../images/portfolio_background.png';
 import SCHBanner from '../../images/Saunders_Custom_Homes.jpg';
 import CyberSafe from '../../images/CyberSafe.png';
 import StudentTracker from '../../images/student_tracker.png';
+import Hangman from '../../images/hangman-cpp.png';
 
 export default () => {
   return(
@@ -74,6 +75,21 @@ export default () => {
         </div>
         <div className="col-lg-3 d-flex flex-column">
           <img className="rounded ProjectImg" src={ StudentTracker } alt="Screen shot of studnet info" />
+        </div>
+      </div>
+      {/* Card End */}
+      {/* Card Start */}
+      <div className="row justify-content-center mb-5">
+        <div className="col-lg-4 px-5 text-start TextBackground">
+          <h5 className="mb-3"><a className="text-danger" href="https://github.com/spencersaunders45/Hangman-CPP">Hangman (C++)</a></h5>
+          <p className="fw-bold">Play hangman in your powershell.</p>
+          <h6>Tech:</h6>
+          <ul>
+            <li>C++</li>
+          </ul>
+        </div>
+        <div className="col-lg-3 d-flex flex-column">
+          <img className="rounded ProjectImg" src={ Hangman } alt="Screen shot of studnet info" />
         </div>
       </div>
       {/* Card End */}
