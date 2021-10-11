@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './views/Home/Home';
-import About from './views/About/About';
+import Skills from './views/Skills/Skills';
 import Projects from './views/Projects/Projects';
 import { Router } from '@reach/router';
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Home path='/' />
-        <About path='/about' />
+        <Skills path='/skills' />
         <Projects path='projects' />
       </Router>
     </div>

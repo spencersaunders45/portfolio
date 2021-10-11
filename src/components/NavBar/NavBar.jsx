@@ -22,7 +22,7 @@ export default () => {
                   <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/about">About</a>
+                  <a class="nav-link" href="/skills">Skills</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/projects">Projects</a>

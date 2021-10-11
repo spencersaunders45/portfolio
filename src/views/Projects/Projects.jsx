@@ -18,7 +18,7 @@ export default () => {
       </div>
       <div className="row my-5">
         <div className="col">
-          <h1>Hello World</h1>
+          <h1 className="text-danger">Hello World</h1>
         </div>
       </div>
       {/* Card Start */}

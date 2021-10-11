@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './About.css';
+import './Skills.css';
 import Footer from '../../components/Footer/Footer';
 import NavBar from '../../components/NavBar/NavBar';
 import BackgroundImg from '../../images/portfolio_background.png';
@@ -16,19 +16,17 @@ export default () => {
       <div id="SecondaryContainer" className="container-fluid d-flex flex-column align-items-center text-light">
         <div className="row justify-content-center">
           <div className="col-7 TextBackground mb-5">
-            <h1 className="pt-1">Hello, I'm Spencer.</h1>
-            <p className="pt-5">I am a full stack developer doing everything from UI/UX design to database development. I have experience creating websites for small buinesses and am driven to provide the best product as possible. I am a straight forward highly self motivated person who likes to get the job done right the first time. I write clean code <a className="text-danger" href="https://github.com/spencersaunders45/student_tracker/tree/main/src">(seen here)</a> and am constantly seeking to improve my skills. If you would like to work with me then contact me <a className="text-danger" href="mailto: spencer.saunders45@gmail.com">here</a>.</p>
-            <p className="py-2 ">You can also view my projects <a className="text-danger" href="/projects">here</a>.</p>
+            <h1 className="pt-1 text-danger">Skills</h1>
           </div>
           <div className="row justify-content-center">
             <div className="col-auto TextBackground">
-              <h3 className="mb-5">Skills</h3>
               <div className="row text-start justify-content-center">
                 <div className="col-auto">
                   <div className="row">
                     <div className="col-auto mb-3">
                       <ul>
                         <li><h5>Python</h5></li>
+                        <li><h5>C++</h5></li>
                         <li><h5>JavaScript</h5></li>
                         <li><h5>Java</h5></li>
                         <li><h5>HTML</h5></li>

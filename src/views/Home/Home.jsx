@@ -23,12 +23,12 @@ export default () => {
           </div>
           <div className="row justify-content-center StopOverflow">
             <div className="col-6 pt-5 ColBackground">
-              <p className="text-light">I am a full stack developer currently living in Texas. I design and build websites for small businesses. If you are a business looking for a website or an employer looking to hire, email me <a className="text-danger" href="mailto: spencer.saunders45@gmail.com">here</a>.</p>
+              <p className="text-light">I am currently enrolled at Brigham Young University - Idaho as a Computer Scientist and am on track to graduate in July 2025. In January of 2021 I was certified by Coding Dojo as a full stack developer in Python/Django, Java/Springboot, and MERN. If you are an employer seeking to hire an intern, email me <a className="text-danger" href="mailto: spencer.saunders45@gmail.com">here</a>.</p>
             </div>
           </div>
           <div className="row justify-content-center StopOverflow">
             <div className="col-auto pt-4 ColBackground">
-              <a className="btn btn-outline-danger m-3" href="/about">View About</a>
+              <a className="btn btn-outline-danger m-3" href="/skills">View Skills</a>
               <a className="btn btn-outline-danger m-3" href="/projects">View Projects</a>
             </div>
           </div>
