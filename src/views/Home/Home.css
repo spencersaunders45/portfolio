@@ -1,16 +1,25 @@
 .container-fluid{
   height: 100vh;
-  width: 100vw !important;
   background-image: url("../../images/background-smaller.jpg") !important;
-  background-size:  100vw;
-  background-repeat: no-repeat;
+  background-size:  100%;
+  /* background-repeat: no-repeat; */
   padding: 15px;
 }
 
+@media screen and (max-width: 450px) {
+  .container-fluid{
+    height: none;
+    max-width: 320px;
+    background-image: none !important;
+  }
+}
+
 #main{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
+  grid-template-rows: 1fr 1fr 1fr !important;
   max-width: 960px;
-  min-width: 400px;
-  /* min-height: 400px; */
+  max-height: 600px;
   background-color: #333333;
   color: white;
   border-radius: 50px;
@@ -19,32 +28,70 @@
   border-width: 1px;
 }
 
-.social-img{
-  max-width: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-#profile-pic{
-  max-width: 250px;
-  border-radius: 50%;
-  margin-bottom: 20px;
+@media screen and (max-width: 450px){
+  #main{
+    display: table-row !important;
+    grid-template-columns: none !important;
+    grid-template-rows: none !important;
+    max-width: 310px;
+  }
 }
 
 .link-side{
   max-width: 500px;
-  min-width: 400px;
   padding: 25px;
+  grid-column: 1/span 2;
+  grid-row: 1/span 3;
+}
+
+/* @media screen and (max-width: 450px){
+  .link-side{
+    min-width: 280px;
+    max-width: 300px;
+  }
+} */
+
+#profile-pic{
+  max-height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 450px){
+  #profile-pic{
+    max-width: 200px;
+  }
 }
 
 #social-links{
   margin-top: 20px;
 }
 
+.social-img{
+  max-width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 690px){
+  #social-img{
+    max-width: 10px;
+  }
+}
+
 .info-side{
   background-color: #2A2A2A;
   border-radius: 50px;
   padding: 25px;
+  grid-column: 3/span 5;
+  grid-row: 1/span 3;
+}
+
+@media screen and (max-width: 450px){
+  .link-side{
+    /* grid-column: 1 !important;
+    grid-row: 1/span 2 !important; */
+  }
 }
 
 #pixel-dude{
@@ -53,4 +100,10 @@
 
 #freepik{
   font-size: 12px;
+}
+
+@media screen and (max-width: 450px){
+  #freepik{
+    display: none;
+  }
 }
