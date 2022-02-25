@@ -1,17 +1,51 @@
-.Container{
-  height: 93vh;
-  margin: 0px;
-  padding: 0px;
-  width: 100vw;
+.container-fluid{
+  height: 100vh;
+  width: 100vw !important;
+  background-image: url("../../images/background-smaller.jpg") !important;
+  background-size:  100vw;
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-color: black;
+  padding: 15px;
 }
 
-.StopOverflow{
-  width: 100vw;
+#main{
+  max-width: 960px;
+  min-height: 600px;
+  background-color: #333333;
+  color: white;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
 }
 
-.ColBackground{
-  background-color: rgba(0, 0, 0, .8);
+.social-img{
+  max-width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#profile-pic{
+  max-width: 250px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.link-side{
+  max-width: 500px;
+  min-width: 400px;
+  padding: 25px;
+}
+
+#social-links{
+  margin-top: 20px;
+}
+
+.info-side{
+  background-color: #2A2A2A;
+  border-radius: 50px;
+  padding: 25px;
+}
+
+#pixel-dude{
+  max-width: 200px;
 }
