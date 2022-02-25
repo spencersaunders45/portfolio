@@ -9,7 +9,8 @@
 
 #main{
   max-width: 960px;
-  min-height: 600px;
+  min-width: 400px;
+  /* min-height: 400px; */
   background-color: #333333;
   color: white;
   border-radius: 50px;
@@ -48,4 +49,8 @@
 
 #pixel-dude{
   max-width: 200px;
+}
+
+#freepik{
+  font-size: 12px;
 }

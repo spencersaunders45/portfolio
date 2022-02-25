@@ -19,7 +19,7 @@ export default () => {
             <a href="https://www.linkedin.com/in/spencer-saunders-developer/"><img className='social-img' src={LinkedIn} alt="LinkedIn Logo" /></a>
           </div>
         </div>
-        <div className='col info-side'>
+        <div className='col info-side py-5'>
           <img id='pixel-dude' src="https://media.giphy.com/media/5eLDrEaRGHegx2FeF2/giphy.gif" alt="pixel dude typing" />
           <h3 className='border-bottom border-white p-3 mb-3'>Software Developer</h3>
           <div>
@@ -30,6 +30,9 @@ export default () => {
           </div>
         </div>
       </div>
+      <footer>
+        <a id='freepik' className='fixed-bottom d-flex justify-content-start' href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a>
+      </footer>
     </div>
   )
 }
